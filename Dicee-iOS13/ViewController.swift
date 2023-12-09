@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
-        print("Button got tapped.")
+        diceImageView1.image = UIImage(imageLiteralResourceName: "DiceFour");
+        diceImageView2.image = UIImage(imageLiteralResourceName: "DiceFour");
     }
     
 }
