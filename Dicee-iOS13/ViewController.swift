@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         UIImage(imageLiteralResourceName: "DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"),
         UIImage(imageLiteralResourceName: "DiceFive"), UIImage(imageLiteralResourceName: "DiceSix")]
         
-        diceImageView1.image = diceArray[leftDiceNumber]
-        diceImageView2.image = diceArray[rightDiceNumber]
+        diceImageView1.image = diceArray[Int.random(in: 0...5)]
+        diceImageView2.image = diceArray[Int.random(in: 0...5)]
         
     }
     
